@@ -1,0 +1,69 @@
+Microsoft Windows [Version 10.0.16299.125]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\ming>pip install wagtail
+Collecting wagtail
+  Downloading wagtail-1.13.1-py2.py3-none-any.whl (7.1MB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 7.1MB 131kB/s
+Collecting html5lib<1,>=0.999 (from wagtail)
+  Downloading html5lib-0.999999999-py2.py3-none-any.whl (112kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 122kB 4.5MB/s
+Collecting Willow<1.1,>=1.0 (from wagtail)
+  Downloading Willow-1.0-py2.py3-none-any.whl (104kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 112kB 574kB/s
+Collecting Pillow>=2.6.1 (from wagtail)
+  Downloading Pillow-4.3.0-cp36-cp36m-win32.whl (1.4MB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1.4MB 172kB/s
+Collecting requests<3.0,>=2.11.1 (from wagtail)
+  Downloading requests-2.18.4-py2.py3-none-any.whl (88kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 92kB 218kB/s
+Collecting Django<1.12,>=1.8.1 (from wagtail)
+  Downloading Django-1.11.8-py2.py3-none-any.whl (6.9MB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 7.0MB 128kB/s
+Collecting Unidecode>=0.04.14 (from wagtail)
+  Downloading Unidecode-0.04.21-py2.py3-none-any.whl (228kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 235kB 538kB/s
+Collecting django-taggit<1.0,>=0.20 (from wagtail)
+  Downloading django_taggit-0.22.2-py2.py3-none-any.whl (45kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 51kB 48kB/s
+Collecting django-treebeard<5.0,>=3.0 (from wagtail)
+  Downloading django-treebeard-4.2.0.tar.gz (310kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 317kB 1.2MB/s
+Collecting django-modelcluster<4.0,>=3.1 (from wagtail)
+  Downloading django-modelcluster-3.1.tar.gz
+Collecting djangorestframework<3.7,>=3.1.3 (from wagtail)
+  Downloading djangorestframework-3.6.4-py2.py3-none-any.whl (1.5MB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 1.5MB 88kB/s
+Collecting beautifulsoup4>=4.5.1 (from wagtail)
+  Downloading beautifulsoup4-4.6.0-py3-none-any.whl (86kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 92kB 529kB/s
+Collecting webencodings (from html5lib<1,>=0.999->wagtail)
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl
+Collecting six (from html5lib<1,>=0.999->wagtail)
+  Downloading six-1.11.0-py2.py3-none-any.whl
+Requirement already satisfied: setuptools>=18.5 in c:\python36\lib\site-packages (from html5lib<1,>=0.999->wagtail)
+Collecting olefile (from Pillow>=2.6.1->wagtail)
+  Downloading olefile-0.44.zip (74kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 81kB 114kB/s
+Collecting idna<2.7,>=2.5 (from requests<3.0,>=2.11.1->wagtail)
+  Downloading idna-2.6-py2.py3-none-any.whl (56kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 61kB 653kB/s
+Collecting urllib3<1.23,>=1.21.1 (from requests<3.0,>=2.11.1->wagtail)
+  Downloading urllib3-1.22-py2.py3-none-any.whl (132kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 133kB 381kB/s
+Collecting certifi>=2017.4.17 (from requests<3.0,>=2.11.1->wagtail)
+  Downloading certifi-2017.11.5-py2.py3-none-any.whl (330kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 337kB 854kB/s
+Collecting chardet<3.1.0,>=3.0.2 (from requests<3.0,>=2.11.1->wagtail)
+  Downloading chardet-3.0.4-py2.py3-none-any.whl (133kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 143kB 232kB/s
+Collecting pytz (from Django<1.12,>=1.8.1->wagtail)
+  Downloading pytz-2017.3-py2.py3-none-any.whl (511kB)
+    100% |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 512kB 220kB/s
+Installing collected packages: webencodings, six, html5lib, Willow, olefile, Pillow, idna, urllib3, certifi, chardet, requests, pytz, Django, Unidecode, django-taggit, django-treebeard, django-modelcluster, djangorestframework, beautifulsoup4, wagtail
+  Running setup.py install for olefile ... done
+  Running setup.py install for django-treebeard ... done
+  Running setup.py install for django-modelcluster ... done
+Successfully installed Django-1.11.8 Pillow-4.3.0 Unidecode-0.4.21 Willow-1.0 beautifulsoup4-4.6.0 certifi-2017.11.5 chardet-3.0.4 django-modelcluster-3.1 django-taggit-0.22.2 django-treebeard-4.2.0 djangorestframework-3.6.4 html5lib-0.999999999 idna-2.6 olefile-0.44 pytz-2017.3 requests-2.18.4 six-1.11.0 urllib3-1.22 wagtail-1.13.1 webencodings-0.5.1
+
+C:\Users\ming>
