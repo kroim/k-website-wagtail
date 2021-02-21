@@ -1,11 +1,81 @@
 {% extends "base.html" %}
 
+{% load wagtailcore_tags %}
+
+
 {% block body_class %}template-homepage{% endblock %}
 
+
 {% block content %}
-    <h1>Welcome to your new Wagtail site!</h1>
 
-    <p>You can access the admin interface <a href="{% url 'wagtailadmin_home' %}">here</a> (make sure you have run "./manage.py createsuperuser" in the console first).</p>
+{% include "pageheader.html" %}
 
-    <p>If you haven't already given the documentation a read, head over to <a href="http://docs.wagtail.io/">http://docs.wagtail.io</a> to start building on Wagtail</p>
+<div class="main_back">
+    <img src="/static/images/background.svg">
+</div>
+<div class="container">
+    <div class="home_title">
+        Create time for new pursuits
+    </div>
+    <div class="home_body">
+        <img class="img_top" src="/static/images/combining.png">
+        <img class="img_left" src="/static/images/AdevancedUX.png">
+        <img class="img_bottom" src="/static/images/EnhancingINsight.png">
+        <img class="img_right" src="/static/images/IntelligentLegacy.png">
+    </div>
+    <div class="home_side_right">
+        <img class="img_top" src="/static/images/rightbutton1.png">
+        <img class="img_bottom" src="/static/images/rightbutton2.png">
+    </div>
+</div>
+<div class="home_bottom">
+    <div class="home_info">
+        <span class="text_bold">You want to get the most out of your data with smart technology?<br></span>
+        <span class="text_plain">Contact us: joost.hubregtse@kentivo.com<br></span>
+        <span class="text_plain">or call us: +316 129 139 03<br></span>
+    </div>
+    <div class="home_visit_us">
+        <div class="col-sm-12 text_bold">Visit us:</div>
+        <div class="col-sm-4 col-xs-12 text_plain">
+            <div class="col-xs-4">
+                <div></div>
+                <img src="/static/images/map1.jpg"></div>
+            <div class="col-xs-8">
+                KENTIVO BV<br>
+                Adres 1<br>
+                111 AB Rotterdam<br>
+                Netherlands<br>
+                <i class="fa fa-phone"></i> +31-10 1111111<br>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12 text_plain">
+            <div class="col-xs-4">
+                <div></div>
+                <img src="/static/images/map2.jpg"></div>
+            <div class="col-xs-8">
+                KENTIVO BV<br>
+                Kerksteeg 1<br>
+                3582 CV Utrecht<br>
+                Netherlands<br>
+                <i class="fa fa-phone"></i> +31-30 2077077<br>
+            </div>
+        </div>
+        <div class="col-sm-4 col-xs-12 text_plain">
+            <div class="col-xs-4">
+                <div></div>
+                <img src="/static/images/map3.jpg"></div>
+            <div class="col-xs-8">
+                KENTIVO BV<br>
+                Dietrich-Bonhoeffer Str. 14<br>
+                83043 Bad-Aibling<br>
+                Germany<br>
+                <i class="fa fa-phone"></i> +49-8061-9397115<br>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script type="text/javascript" src="/static/js/home.js"></script>
 {% endblock %}
